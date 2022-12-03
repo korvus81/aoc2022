@@ -1,0 +1,6 @@
+colorama==0.4.6
+commonmark==0.9.1
+funcparserlib==1.0.1
+hy==0.25.0
+Pygments==2.13.0
+rich==12.6.0
