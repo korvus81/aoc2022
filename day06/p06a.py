@@ -8,8 +8,27 @@ from sys import exit
 from collections import defaultdict,namedtuple
 import time
 from util import *
+import itertools
 from aocd import lines as lns  # like data.splitlines()
 #from aocd import numbers  # uses regex pattern -?\d+ to extract integers from data
 lines = list(lns)
 
 pp(lines)
+
+
+st = lines[0].strip()
+buffer = []
+for i,ch in enumerate(st):
+    buffer.append(ch)
+    if len(buffer) > 4:
+        buffer = buffer[-4:]
+    pp(buffer)
+    match = False
+    for c in list(itertools.combinations(buffer,2)):
+        if c[0] == c[1]:
+            match = True
+    if not match and len(buffer) == 4:
+        pp(buffer)
+        print(i+1) # i is zero-based
+        break
+    #if buffer[0] != buffer[1] != buffer[2]
