@@ -199,10 +199,10 @@ for d in altdata:
         screen[curpx] = "#"
     else:
         screen[curpx] = "."
-    #if cycle >= 20 and (cycle-20) % 40 == 0:
-    #    sstr = cycle * xreg
-    #    print(f"[cycle {cycle}] sstr={sstr} sigstr={sigstr}")
-    #    sigstr.append(sstr)
+    if cycle >= 20 and (cycle-20) % 40 == 0:
+        sstr = cycle * xreg
+        print(f"[cycle {cycle}] sstr={sstr} sigstr={sigstr}")
+        sigstr.append(sstr)
     print(f"[{cycle}] {d} xreg={xreg} hpos={hpos} curpx+1={curpx+1} drawn={screen[curpx]}")
     if d[0] == "noop":
         pass
