@@ -1,0 +1,145 @@
+// AoC2022 Day 16
+graph p16 {
+	MU [label=MU]
+	TQ [label=TQ]
+	YH [label=YH]
+	EO [label=EO]
+	MH [label=MH]
+	RJ [label=RJ]
+	XZ [label=XZ]
+	UU [label=UU]
+	KV [label="KV - 13"]
+	SU [label="SU - 19"]
+	BB [label=BB]
+	RI [label="RI - 4"]
+	TZ [label=TZ]
+	LY [label=LY]
+	PX [label=PX]
+	VH [label=VH]
+	HN [label=HN]
+	LR [label=LR]
+	NJ [label=NJ]
+	AM [label=AM]
+	FM [label=FM]
+	VT [label="VT - 5"]
+	HF [label=HF]
+	HR [label="HR - 11"]
+	WX [label=WX]
+	PE [label=PE]
+	QF [label="QF - 17"]
+	EE [label=EE]
+	UH [label="UH - 25"]
+	CV [label=CV]
+	SF [label=SF]
+	RP [label="RP - 3"]
+	XD [label=XD]
+	GG [label="GG - 12"]
+	XG [label=XG]
+	YA [label="YA - 21"]
+	OL [label=OL]
+	AN [label=AN]
+	LI [label="LI - 15"]
+	GQ [label=GQ]
+	HU [label=HU]
+	OJ [label=OJ]
+	YN [label=YN]
+	ML [label=ML]
+	UJ [label=UJ]
+	IX [label=IX]
+	JC [label=JC]
+	TA [label=TA]
+	DT [label="DT - 16"]
+	NR [label=NR]
+	YI [label=YI]
+	AA [label=AA root=true]
+	BN [label=BN]
+	KA [label=KA]
+	IL [label=IL]
+	CN [label="CN - 7"]
+	IP [label=IP]
+	OM [label=OM]
+	KO [label=KO]
+	LA [label=LA]
+	JQ [label="JQ - 6"]
+	IK [label=IK]
+	HG [label=HG]
+	NS [label="NS - 23"]
+	JQ -- YN
+	JC -- JQ
+	CN -- NR
+	DT -- UU
+	IX -- JQ
+	DT -- VH
+	RI -- RJ
+	CV -- NS
+	TA -- VH
+	DT -- HU
+	SF -- SU
+	OL -- SU
+	PX -- XZ
+	IP -- VT
+	GG -- ML
+	LY -- RP
+	GG -- OL
+	ML -- RI
+	AA -- RJ
+	HG -- MH
+	LA -- MU
+	PE -- RI
+	JQ -- PX
+	FM -- VT
+	KV -- PE
+	BB -- NS
+	GQ -- KO
+	EE -- LY
+	DT -- KA
+	CN -- YH
+	CN -- WX
+	TZ -- VT
+	KV -- XD
+	GG -- IL
+	CN -- OM
+	MU -- VT
+	EO -- IK
+	AN -- IX
+	NS -- UJ
+	VT -- XZ
+	HR -- LR
+	HR -- KO
+	JC -- NJ
+	HN -- KV
+	QF -- YI
+	SF -- YN
+	AA -- LA
+	CN -- EO
+	HF -- NR
+	BN -- YH
+	HN -- LR
+	JQ -- OM
+	UH -- YI
+	NJ -- QF
+	AA -- AN
+	HU -- TQ
+	IP -- WX
+	SU -- TQ
+	HF -- SU
+	GG -- MH
+	IK -- RP
+	CV -- KV
+	IL -- XD
+	UU -- XG
+	FM -- RP
+	AA -- BN
+	AM -- OJ
+	RI -- TZ
+	GG -- KA
+	OJ -- RP
+	AA -- AM
+	LI -- XG
+	GQ -- YA
+	UJ -- YA
+	EE -- RI
+	BB -- HR
+	HG -- RP
+	KV -- TA
+}

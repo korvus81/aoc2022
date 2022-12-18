@@ -66,7 +66,9 @@ def parsePackets(lns):
             packets.append(eval(ln))
     return packets 
 
-packets = parsePackets(lines)
+
+#packets = parsePackets(lines)
+packets = [eval(ln) for ln in lns if len(ln.strip()) > 0]
 packets.append([[2]])
 packets.append([[6]])
 
